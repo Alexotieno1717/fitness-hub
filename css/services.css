@@ -25,10 +25,10 @@ body{
 /* =================================================
 HEADER
 =================================================================*/
-header{
+.header-services{
     width: 100%;
     height: 100vh;
-    background: url(../images/h1_hero.png) no-repeat 50% 50%;
+    background: url(../images/edgar-castrejon-1SPu0KT-Ejg-unsplash.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -124,25 +124,7 @@ nav ul li a:hover{
     color: #fff;
 }
 
-/* =================================================
-HOMEPAGE CONTENT
-=================================================================*/
-/* Who We Are */
-.home-who-we-are{
-    text-align: center;
-    color: orange;
-}
 
-.home-who-we-are-content{
-    display: flex;
-    justify-content:space-between;
-}
-
-.home-who-we-are-paragraph{
-    width: 55%;
-    text-align: center;
-    align-self: center;
-}
 
 
 
