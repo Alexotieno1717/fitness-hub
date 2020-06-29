@@ -1,3 +1,7 @@
+/* =================================================
+GENERAL
+=================================================================*/
+
 html, body{
     margin: 0;
     padding: 0;
@@ -6,21 +10,26 @@ html, body{
 
 body{
     font-family: Quicksand;
+    background: #727272;
 }
 
+
+.container{
+    width: 90%;
+    margin: 4em auto;
+    line-height: 20px;
+    text-align: justify;
+}
+
+
+/* =================================================
+HEADER
+=================================================================*/
 header{
     width: 100%;
     height: 100vh;
     background: url(../images/h1_hero.png) no-repeat 50% 50%;
     background-size: cover;
-}
-
-.container{
-    width: 90%;
-    margin: 4em auto;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: justify;
 }
 
 .logo{
@@ -113,6 +122,26 @@ nav ul li a:hover{
     background: transparent;
     border: 1px solid orange;
     color: #fff;
+}
+
+/* =================================================
+HOMEPAGE CONTENT
+=================================================================*/
+/* Who We Are */
+.home-who-we-are{
+    text-align: center;
+    color: orange;
+}
+
+.home-who-we-are-content{
+    display: flex;
+    justify-content:space-between;
+}
+
+.home-who-we-are-paragraph{
+    width: 55%;
+    text-align: center;
+    align-self: center;
 }
 
 
