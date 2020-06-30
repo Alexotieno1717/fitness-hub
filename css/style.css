@@ -322,6 +322,16 @@ FOOTER
     color: #00aced;
 }
 
+.footer-hr{
+    background-color: orange;
+    height: 2px;
+    border: none;
+}
+
+.copyright{
+    text-align: center;
+    color: #fff;
+}
 
 
 
