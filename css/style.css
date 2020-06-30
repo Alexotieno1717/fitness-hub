@@ -372,9 +372,6 @@ MEDIA QUERY
     .sign-up{
         margin-right: 45%;
     }
-<<<<<<< HEAD
-}
-=======
 
     .home-who-we-are-content{
         display: flex;
@@ -406,4 +403,3 @@ MEDIA QUERY
         flex-direction: column-reverse;
     }
 }
->>>>>>> dd0d596f703bd314ab1ff1ab8024f58df6d81e54
