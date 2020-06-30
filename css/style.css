@@ -210,6 +210,118 @@ td{
     padding-top: 50px;
 }
 
+/* Book Appointment */
+.book-appointment{
+    background: #000;
+    padding: 20px;
+}
+
+.book-appointment-title > h2{
+    color: orange;
+    text-align: center;
+}
+
+.book-appointment-title > p{
+    color: white;
+    text-align: center;
+}
+
+.btn-custom{
+    padding: 10px;
+    background: transparent;
+    color: orange;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid orange;
+    margin-top: 10px;
+    margin-left: 45%;
+    transition: 1s;
+}
+
+.btn-custom:hover{
+    background: orange;
+    color: #000;
+}
+
+/* =================================================
+FOOTER
+=================================================================*/
+.footer{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url(../images/foot.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: auto;
+    padding: 10px;
+}
+
+#footer-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-cont-title{
+    color: orange;
+}
+
+.footer-cont-subtitle{
+    color: white;
+}
+
+.footer-logo{
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.fa-facebook{
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    transition: .5s;
+}
+
+.fa-facebook:hover{
+    background-color: orange;
+    color: #3b5998;
+}
+
+
+.fa-instagram{
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    transition: .5s;
+}
+
+.fa-instagram:hover{
+    background-color: orange;
+    color: #bc2a8d;
+}
+
+.fa-twitter{
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    transition: .5s;
+}
+
+.fa-twitter:hover{
+    background-color: orange;
+    color: #00aced;
+}
+
 
 
 
@@ -275,5 +387,9 @@ MEDIA QUERY
 
     .schedule-image > img{
         width: 90%;
+    }
+
+    #footer-cont{
+        flex-direction: column-reverse;
     }
 }
