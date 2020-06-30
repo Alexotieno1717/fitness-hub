@@ -131,6 +131,7 @@ HOMEPAGE CONTENT
 .home-who-we-are{
     text-align: center;
     color: orange;
+    font-size: 20px;
 }
 
 .home-who-we-are-content{
@@ -142,6 +143,41 @@ HOMEPAGE CONTENT
     width: 55%;
     text-align: center;
     align-self: center;
+}
+
+/* Why Us */
+.why-chose-title{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.why-chose-img{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.why-chose-img h2{
+    color: white;
+}
+
+.why-chose-img p{
+    color: gainsboro;
+}
+
+#img-01{
+    background: orange;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 100px;
+}
+
+#img-001{
+ padding-top: 10px;
+
 }
 
 
@@ -183,5 +219,19 @@ MEDIA QUERY
 
     .sign-up{
         margin-right: 45%;
+    }
+
+    .home-who-we-are-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .home-who-we-are-img > img{
+        width: 380px;
+        margin-left: 30px;
+    }
+
+    .why-chose-img{
+        display: block;
     }
 }
