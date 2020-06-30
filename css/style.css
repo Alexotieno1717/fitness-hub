@@ -143,6 +143,7 @@ HOMEPAGE CONTENT
     width: 55%;
     text-align: center;
     align-self: center;
+    color: #fff;
 }
 
 /* Why Us */
@@ -178,6 +179,35 @@ HOMEPAGE CONTENT
 #img-001{
  padding-top: 10px;
 
+}
+
+/* Get Schedule */
+.schedule-title > h2{
+    color: orange;
+    font-size: 20px;
+}
+
+.schedule-title > p{
+    color: #fff;
+}
+
+.table{
+    width: 100%;
+}
+th{
+    background-color: orange;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+#get-schedule{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
 }
 
 
@@ -233,5 +263,17 @@ MEDIA QUERY
 
     .why-chose-img{
         display: block;
+    }
+
+    #img-01{
+        margin-left: 200px;
+    }
+
+    #get-schedule{
+        flex-direction: column;
+    }
+
+    .schedule-image > img{
+        width: 90%;
     }
 }
