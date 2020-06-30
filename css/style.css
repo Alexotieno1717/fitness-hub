@@ -322,6 +322,23 @@ FOOTER
     color: #00aced;
 }
 
+.fa-youtube{
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    transition: .5s;
+}
+
+.fa-youtube:hover{
+    background-color: orange;
+    color: #bb0000;
+}
+
+
 .footer-hr{
     background-color: orange;
     height: 2px;
