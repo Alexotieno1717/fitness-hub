@@ -28,7 +28,7 @@ HEADER
 header{
     width: 100%;
     height: 100vh;
-    background: url(../images/h1_hero.png) no-repeat 50% 50%;
+    background: url(../images/conte.jpeg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -322,23 +322,6 @@ FOOTER
     color: #00aced;
 }
 
-.fa-youtube{
-    color: orange;
-    border: 1px solid orange;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    padding: 10px;
-    text-align: center;
-    transition: .5s;
-}
-
-.fa-youtube:hover{
-    background-color: orange;
-    color: #bb0000;
-}
-
-
 .footer-hr{
     background-color: orange;
     height: 2px;
@@ -389,34 +372,47 @@ MEDIA QUERY
     .sign-up{
         margin-right: 45%;
     }
-
-    .home-who-we-are-content{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .home-who-we-are-img > img{
-        width: 380px;
-        margin-left: 30px;
-    }
-
-    .why-chose-img{
-        display: block;
-    }
-
-    #img-01{
-        margin-left: 200px;
-    }
-
-    #get-schedule{
-        flex-direction: column;
-    }
-
-    .schedule-image > img{
-        width: 90%;
-    }
-
-    #footer-cont{
-        flex-direction: column-reverse;
-    }
+}
+#moveBody{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    margin-top: -25%;
+    margin-left: 4%;
+    position: absolute;
+    color: blue;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 180px;
+    line-height: 21px;
+}
+#contBody{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    color: white;
+    background: #3D3A3A;
+    text-align: left;
+    font-size: 25px;
+    
+}
+.moveL{
+    padding-left: 20px;
+    font-size: larger;
+}
+.moveR{
+    padding-top: 20px;
+    padding-left: 20%;
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    word-spacing: 10px;
+}
+input {
+    height: 40px;
+    width: 415px;
+    margin-bottom: 10px;
 }
