@@ -2,14 +2,13 @@ html, body{
     margin: 0;
     padding: 0;
     width: 100%;
-}
-
+} 
+ 
 body{
     font-family: Quicksand;
     background: #727272;
+    display: block;
 }
-
-
 .container{
     width: 90%;
     margin: 4em auto;
@@ -43,7 +42,7 @@ nav ul{
     color: #fff;
     padding: 0;
     text-align: center;
-    margin: 0;
+    margin-top: 0;
     transition: 1s;
 }
 
@@ -106,5 +105,113 @@ nav ul li a:hover{
     width: 20%;
     background: transparent;
     border: 1px solid orange;
+    color: #fff;
+}
+
+.image{
+    display: block;
+}
+
+.footer{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url(../images/foot.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+#footer-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-cont-title{
+    color: orange;
+}
+
+.footer-cont-subtitle{
+    color: white;
+}
+
+.footer-logo{
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.fa-facebook{
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    transition: .5s;
+}
+
+.fa-facebook:hover{
+    background-color: orange;
+    color: #3b5998;
+}
+
+
+.fa-instagram{
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    transition: .5s;
+}
+
+.fa-instagram:hover{
+    background-color: orange;
+    color: #bc2a8d;
+}
+
+.fa-twitter{
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    transition: .5s;
+}
+
+.fa-twitter:hover{
+    background-color: orange;
+    color: #00aced;
+}
+
+.fa-youtube{
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    transition: .5s;
+}
+
+.fa-youtube:hover{
+    background-color: orange;
+    color: #bb0000;
+}
+
+.footer-hr{
+    background-color: orange;
+    height: 2px;
+    border: none;
+}
+
+.copyright{
+    text-align: center;
     color: #fff;
 }
