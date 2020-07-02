@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
     width: 100%;
+    overflow-x: hidden;
 } 
  
 body{
@@ -125,13 +126,14 @@ nav ul li a:hover{
     
 }
 
+
 .row:after{
     content: none;
     display: table;
     clear: both;
 }
 
-.footer{
+footer{
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url(../images/foot.jpg) no-repeat 50% 50%;
     background-size: cover;
     height: auto;
@@ -238,10 +240,13 @@ nav ul li a:hover{
 .images-container{
     display:flex;
     justify-content: space-between;
-    padding: 0%;
+    padding-left: 20%;
+    padding-right: 20%;
     overflow-x: hidden;
-    flex-direction: row;display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+    overflow-y: hidden;
+    flex-direction: row;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    
 }
