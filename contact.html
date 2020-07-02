@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
+    <header class="contact-banner">
         <nav>
             <div class="menu-icon">
                 <i class="fa fa-bars fa-2x"></i>
@@ -34,39 +34,95 @@
 
     </header>
 
-    <div id="contBody">
-
-        <div id="moveBody">
-
-            <div class="moveL">
-
-                <H2>Contact Us</H2>
-
-                <h3>GET IN TOUCH</h3>
-
-                <p>
-                    <strong> Physical-Address</strong> - 08 Main str Kibera <br>
-                    <strong>Phone Number</strong> - 125-711-811 125-668-886 <br>
-                    <strong>Email Address</strong> - fitness@gmail.com
-                </p>
-
+    <section id="contact">
+        <div class="contact-body">
+            <div class="contact-title">
+                <h2 class="contact-title-h2">Contact Us</h2>
+                <div class="contact-info">
+                    <h2>Get in touch</h2>
+                    <i class="fa fa-map-marker"></i> Address: Main Str, no 08, Kibera Center <br>
+                    <i class="fa fa-phone"></i> Phone: +254 779663469<br>
+                    <i class="fa fa-envelope"></i> E-mail: fitness@gmail.com
+                </div>
             </div>
-
-            <div class="moveR">
-                
-                <form action="submit">
-                    <input type="text" placeholder="Name" name="Name">
-                    <input type="text" placeholder="Email" name="Email">
-                    <input type="text" placeholder="Phone" name="Phone">
-                    <input type="text" placeholder="location" name="Location">
-                    <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Enter your question here"></textarea>
-                    <button type="submit" id="cuff" >SUBMIT</button>
+            <div class="contact-form">
+                <form action="contact">
+                    <div class="label-contact">
+                        <label for="Name">Full Name</label>
+                    </div>
+                    <div class="input-contact">
+                        <input type="text" placeholder="Enter Your Full Name">
+                    </div>
+                    <div class="label-contact">
+                        <label for="Name">Email</label>
+                    </div>
+                    <div class="input-contact">
+                        <input type="text" placeholder="Enter Your Email">
+                    </div>
+                    <div class="label-contact">
+                        <label for="Name">Message</label>
+                    </div>
+                    <div class="input-contact">
+                        <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+                    </div>
                 </form>
-                
             </div>
         </div>
+    </section>
 
-    </div>
+    <section class="container">
+        <div class="g-map-cont">
+            <iframe class="g-map" src="https://maps.google.com/maps?q=godown%20art%20center&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+        </div>
+    </section>
+
     
+    <section class="footer">
+        <footer class="container" id="footer-cont">
+            <div class="footer-company">
+                <h2 class="footer-cont-title">Company</h2>
+                <p class="footer-cont-subtitle">About Us</p>
+                <p class="footer-cont-subtitle">Company</p>
+                <p class="footer-cont-subtitle">Blog</p>
+                <p class="footer-cont-subtitle">Privacy Policy</p>
+            </div>
+            <div class="open-hour">
+                <h2 class="footer-cont-title">Opening Hours</h2>
+                <p class="footer-cont-subtitle">Monday 11am-7pm</p>
+                <p class="footer-cont-subtitle">Tuesday-Friday 11am-8pm</p>
+                <p class="footer-cont-subtitle">Saturday 10am-6pm</p>
+                <p class="footer-cont-subtitle">Sunday 11am-6pm</p>
+            </div>
+            <div class="support">
+                <h2 class="footer-cont-title">Support</h2>
+                <p class="footer-cont-subtitle">Login</p>
+                <p class="footer-cont-subtitle">My account</p>
+                <p class="footer-cont-subtitle">Subscribe</p>
+                <p class="footer-cont-subtitle">Contact Us</p>
+            </div>
+            <div class="logo-social">
+                <div class="footer-logo">
+                    Fitness <span class="hub">Hub</span>
+                </div>
+                <div class="footer-about">
+                    <p class="footer-cont-subtitle">Fitness hub is a company that gives people accross the globe an<br> opportunity to do exercise from their houses.</p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+                </div>
+            </div>
+        </footer>
+        <hr class="footer-hr">
+        <div class="copyright">
+            <p>Copyright © 2020 All rights reserved </p>
+        </div>
+    </section>
+
+     <!-- JAVASCRIPT CONTENT -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+     <script src="js/main.js"></script>
 </body>
 </html>
