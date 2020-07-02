@@ -417,3 +417,7 @@ input {
     width: 415px;
     margin-bottom: 10px;
 }
+.map{
+    height: 700px;
+}
+iframe{margin-top: 50px;}
