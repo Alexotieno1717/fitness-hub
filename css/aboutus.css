@@ -133,7 +133,8 @@ nav ul li a:hover{
     clear: both;
 }
 
-footer{
+
+.footer{
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url(../images/foot.jpg) no-repeat 50% 50%;
     background-size: cover;
     height: auto;
@@ -240,13 +241,11 @@ footer{
 .images-container{
     display:flex;
     justify-content: space-between;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding: 0%;
     overflow-x: hidden;
     overflow-y: hidden;
     flex-direction: row;
     display: inline-block;
     text-decoration: none;
-    text-align: center;
     
 }
